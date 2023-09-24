@@ -37,15 +37,12 @@ hr {
   border: 1;
 }
 
-/* .custom-img {
+.custom-img-jing {
   object-fit: cover;
-  height: 500px;
+  height: 400px;
   width: 300px;
-} */
-/* .text-presentation{
-  padding-left: 50px;
-  padding-right: 50px;
-} */
+}
+
 .btn-contact {
     background-color: #87CEEB;
 }
@@ -99,4 +96,18 @@ hr {
 .logo-Github {
   width: 4rem;
   height: 4rem
+}
+
+.logo-figma {
+  width: 8rem;
+  height: 8rem
+}
+
+.logo-github {
+  width: 11rem;
+  height: 9rem
+}
+
+.footer-text {
+  font-size: 0.7rem;
 }
