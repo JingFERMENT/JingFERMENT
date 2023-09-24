@@ -37,10 +37,14 @@ hr {
   border: 1;
 }
 
+.navbar-toggler {
+  border-color:rgba(255, 255, 255, 0.55);
+}
+
 .custom-img-jing {
   object-fit: cover;
   height: 400px;
-  width: 300px;
+  width: 400px;
 }
 
 .btn-contact {
