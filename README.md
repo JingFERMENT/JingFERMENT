@@ -8,9 +8,9 @@ I am Jing, a junior developper in Amiens, France.
 - ⚡ Fun fact: I speak **3 languages** fluently: Chinese, French and English.
 
 ### Tech Stack
-HTML / CSS / Bootstrap / Vue.js
-PHP / Javascript 
-MySQL 
+- HTML / CSS / Bootstrap / Vue.js
+- PHP / Javascript 
+- MySQL 
 
 ### Contact
 - [@jingZhangFerment](https://www.linkedin.com/in/jing-ferment/) on LinkedIn
