@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-image: url("../img/bureau-bureau-objets.jpg");
+  background-image: url("../img/background_cv.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -17,7 +17,8 @@ header {
   height: 100vh;
 }
 
-nav.navbar,#experience {
+nav.navbar,
+#experience {
   background-color: #556284;
 }
 
@@ -26,8 +27,13 @@ nav.navbar,#experience {
 }
 
 .titleName,
-#aboutMe, #contact {
+#aboutMe,
+#contact {
   background-color: #556284;
+}
+
+h2 {
+  color: #556284;
 }
 
 hr {
@@ -38,80 +44,43 @@ hr {
 }
 
 .navbar-toggler {
-  border-color:rgba(255, 255, 255, 0.55);
+  border-color: rgba(255, 255, 255, 0.55);
 }
 
 .custom-img-jing {
   object-fit: cover;
-  height: 400px;
-  width: 400px;
+  width: 600px;
+  height: 600px;
 }
 
 .btn-contact {
-    background-color: #87CEEB;
+  background-color: #49bcea;
 }
 
 .btn-download {
-    color:#325284;
-    background-color: #eee9e9;
+  color: #325284;
+  background-color: #eee9e9;
 }
 
 .btn-contact:hover {
-    background-color: #a6dbf0;
+  background-color: #a6dbf0;
 }
 
 .btn-download:hover {
-    color:#325284;
-    background-color: #fff
+  color: #325284;
+  background-color: #fff;
 }
 
 .line-formation {
-    height: 3px;
-    background-color: #556284;
-  
+  height: 3px;
+  background-color: #556284;
 }
 
-.logo-html {
-  width: 10rem;
-  height: 8rem;
-  margin: 10px;
+.fa-brands {
+  font-size: 4rem;
+  color: #325284;
 }
 
-.logo-css {
-  width: 8rem;
-  height: 8rem
-}
-
-.logo-bootstrap {
-  width: 9rem;
-  height: 8rem
-}
-
-.logo-sass {
-  width: 9rem;
-  height: 8rem
-}
-
-.logo-linkedIn {
-  width: 3rem;
-  height: 3rem
-}
-
-.logo-Github {
-  width: 4rem;
-  height: 4rem
-}
-
-.logo-figma {
-  width: 8rem;
-  height: 8rem
-}
-
-.logo-github {
-  width: 11rem;
-  height: 9rem
-}
-
-.footer-text {
-  font-size: 0.7rem;
+.fa-github , .fa-linkedin{
+  font-size: 2rem;
 }

@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jing FERMENT-ZHANG | Développeur web front-end</title>
+    <title>Jing ZHANG-FERMENT | Développeur web junior</title>
     <!-- meta description -->
     <meta name="description"
-        content="CV numérique de Jing FERMENT-ZHANG. Reconversion en tant que développeur web, en recherche active pour un poste à Amiens ou Paris. HTML5, CSS, Figma, github, SASS">
-    <!-- framework bootstrap -->
+        content="CV numérique de Jing FERMENT-ZHANG. Reconversion en tant que développeur web, en recherche active pour un poste à Amiens ou Lille. HTML5, CSS, Bootstrap, Github, SASS, PHP, MySQL, Javascript, Trello">
+    <!-- feuille de style bootstrap -->
     <link rel="stylesheet" href="./public/assets/framework/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- feuille de style personnalisé -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
     <!-- google font pour Inter -->
@@ -33,7 +34,7 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#aboutMe">A PROPOS</a>
+                                <a class="nav-link text-white" href="#aboutMe">PRESENTATION</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="#formation">FORMATION</a>
@@ -43,9 +44,6 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="#competences">COMPETENCES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#contact">CONTACT</a>
                             </li>
                         </ul>
                         <p></p>
@@ -57,10 +55,10 @@
             <!-- début de homePage -->
             <div class="col-12">
                 <div class="row h-100 justify-content-center align-items-center">
-                    <div class="col-10 col-md-5 titleName">
-                        <h1 class="text-center text-white m-3">Jing FERMENT-ZHANG</h1>
+                    <div class="col-10 col-md-10 col-xl-6 titleName">
+                        <h1 class="text-center text-white p-3">Jing ZHANG-FERMENT</h1>
                         <hr class="text-center text-white m-auto">
-                        <h2 class="text-center text-white m-3">Développeur web et web mobile</h2>
+                        <h2 class="text-center text-white p-3">Développeuse web et web mobile</h2>
                     </div>
                 </div>
             </div>
@@ -68,104 +66,122 @@
         </header>
         <!-- fin de header -->
 
-        <!-- début de "A propos" -->
+        <!-- début de "présentation" -->
         <section id="aboutMe" class="row align-items-center">
             <div class="col-12 col-md-5 col-xl-4 justify-content-center d-flex">
-                <img class="img-fluid custom-img-jing" src="./public/assets/img/Jing_Zhang.jpg"
-                    alt="photo de Jing FERMENT-ZHANG">
+                <div class="py-5">
+                    <img class="img-fluid custom-img-jing w-100" src="./public/assets/img/Jing_Zhang.jpg"
+                        alt="photo de Jing FERMENT-ZHANG">
+                </div>
             </div>
-            <div class="col-12 col-md-7 py-5 d-flex justify-content-center">
-                <div class="text-presentation">
-                    <h2 class="text-center text-white m-3">A propos</h2>
-                    <p class="text-justify text-white p-3">En formation “développeur web et web mobile” à LA Manu
-                        depuis 1 mois, j'apprécie travailler sur la partie front-end d'un projet, qu'il s'agisse d'une
-                        application ou d'un site web.</p>
-                    <p class="text-justify text-white p-3">Je suis quelqu’un d’organisée, apprécie le travail en
-                        équipe et qui aime apprendre constamment de nouvelles choses.</p>
-                    <p class="text-white px-3">
-                        Nom: Jing FERMENT-ZHANG
-                    </p>
-                    <p class="text-white px-3">
-                        Age: 39 ans
-                    </p>
-                    <p class="text-white px-3">
-                        Localisation: Amiens, France
-                    </p>
-                    <div class="row justify-content-around gap-5">
-                        <a class="col-8 col-md-5 btn btn-contact text-white" href="#contact" role="button">Me
-                            contacter</a>
-                        <a class="col-8 col-md-5 btn btn-download" href="./public/assets/doc/CV_JFZ" target="_blank"
-                            role="button">Télécharger
-                            mon CV</a>
+            <div class="col-12 col-md-7 col-xl-8 d-flex justify-content-center align-items-center">
+                <div class="py-5">
+                    <div class="text-presentation">
+                        <h2 class="text-center text-white">PRESENTATION</h2>
+                        <p class="text-justify text-white p-3">Après avoir
+                            travaillé 10 ans dans les études marketing, une impression d'avoir fait le tour de ce métier
+                            s'est installée en moi. Je me suis mise à envisager de changer de métier.</p>
+                        <p class="text-justify text-white p-3">Pour les besoins d'un projet marketing, j'ai été amenée à
+                            travailler avec une équipe de développeurs, c'est là que j'ai découvert ce domaine.
+                            Pendant mon congé parental, j'ai suivi une formation web sur Openclassrooms.
+                            Je voulais élargir mes compétences et savoir si ce domaine me
+                            convenait réellement.</p>
+                        <p class="text-justify text-white p-3">Cette période d'auto-formation m'a déterminé à poursuivre
+                            une reconversion dans ce domaine. C'est pour cela que j'ai fait la formation "développeur
+                            web et web mobile" à <a href="https://lamanu.fr/">la Manu</a> sur le campus d'Amiens.
+                            Cette formation se termine en février 2024.</p>
+                        <p class="text-justify text-white p-3">Je recherche actuellement un <strong>CDI ou une
+                                alternance </strong>en tant
+                            que développeuse web junior. J'habite à Amiens et je suis mobile, en particulier sur la
+                            région lilloise et parisienne. Je suis quelqu'un de rigoureux, organisé et apprécie le
+                            travail en
+                            équipe.</p>
+                        <div class="row justify-content-around gap-5">
+                            <a class="col-8 col-md-5 btn btn-contact text-white"
+                                href="https://www.linkedin.com/in/jing-ferment/" role="button">Me
+                                contacter</a>
+                            <a class="col-8 col-md-5 btn btn-download"
+                                href="./public/assets/doc/CV_JFZ_développeuse_web.pdf" target="_blank"
+                                role="button">Télécharger
+                                mon CV</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- fin de "A propos" -->
+        <!-- fin de "présentation" -->
 
         <!-- début de la page "formation" -->
-        <section id="formation" class="row gap-5 p-5">
-            <h2 class="col-12 text-center">Formation</h2>
+        <section id="formation" class="row d-flex justify-content-center gap-5 p-5">
+            <h2 class="text-center fw-bold">Formation</h2>
             <div class="col-12 item-group text-center">
                 <h4>Développeur Web et Web Mobile</h4>
-                <p>La Manu - août 2023 à février 2023 - Amiens</p>
-                <p>Titre RNCP Niveau 5 "Développeur Web et Web Mobile"</p>
+                <p class="fst-italic">La Manu - août 2023 à février 2024 - Amiens</p>
+                <p>Formation présentielle avec un stage d’une semaine à PrestaShop</p>
+                <p class="m-0">Exemple de projets réalisés: </p>
+                <div class="pb-5 d-flex flex-column justify-content-center">
+                    <span>- Création d'un jeu de combat en php</span>
+                    <span>- Réalisation d'un site web de marché de Noël avec WordPress</span>
+                </div>
+                <hr class="line-formation col-10 col-md-3 text-center m-auto">
+            </div>
+            <div class="col-12 item-group text-center">
+                <h4>Développeur Web</h4>
+                <p class="fst-italic">Openclassrooms - octobre 2021 à avril 2022</p>
+                <p>Formation en ligne suivie par un mentor</p>
+                <p class="m-0">Exemple de projets réalisés: </p>
+                <div class="pb-5 d-flex flex-column justify-content-center">
+                    <span>- Création d'un réseau social d'entreprise avec Vue.js</span>
+                    <span>- Réalisation d'un site e-commerce en JavaScript </span>
+                </div>
                 <hr class="line-formation col-10 col-md-3 text-center m-auto">
             </div>
             <div class="col-12 item-group text-center">
                 <h4>Master spécialisé Marketing quantitatif</h4>
-                <p>I.A.E Grenoble - 2009 à 2010 - Grenoble</p>
+                <p class="pb-3 fst-italic">I.A.E Grenoble - 2009 à 2010 - Grenoble</p>
                 <hr class="line-formation col-10 col-md-3 text-center m-auto">
             </div>
             <div class="col-12 item-group text-center">
                 <h4>Master International Project Management</h4>
-                <p>Groupe ESC Clermont - 2007 à 2009 - Clerment-Ferrand</p>
+                <p class="pb-3 fst-italic">Groupe ESC Clermont - 2007 à 2009 - Clerment-Ferrand</p>
                 <hr class="line-formation col-10 col-md-3 text-center m-auto">
             </div>
             <div class="col-12 item-group text-center">
                 <h4>Licence Langues étrangères appliquées</h4>
-                <p>Université Paul-Valéry - 2004 à 2007 - Montpellier</p>
+                <p class="pb-3 fst-italic">Université Paul-Valéry - 2004 à 2007 - Montpellier</p>
             </div>
         </section>
         <!-- fin de la page "formation" -->
 
         <!-- début de la page "expérience" -->
         <section id="experience" class="row justify-content-center gap-5 p-5">
-            <h2 class="col-12 text-center text-white">Experiences</h2>
+            <h2 class="text-center text-white fw-bold">Experiences</h2>
             <div class="col-12 item-group text-center">
                 <h4 class="text-white">Responsable des études</h4>
-                <p class="text-white">ACPM - Alliance pour les Chiffres de La Presse et des Médias (2016 - 2020, Paris)
+                <p class="text-white fst-italic">ACPM (2016 - 2020, Paris)
                 </p>
-                <div class="row justify-content-center px-2 py-5">
-                    <ul class="col-12 col-md-7 list-group m-auto">
-                        <li class="text-white">Pilotage de 6 études d'audience de la Presse en coordination avec les
-                            partenaires référents du marché</li>
-                        <li class="text-white">Analyse des données et réalisation des rapports</li>
-                        <li class="text-white">Animation des groupes de travail / présentation des résultats</li>
-                    </ul>
+                <div class="pb-5 d-flex flex-column justify-content-center">
+                    <span class="text-white">- Pilotage de 6 études d'audience de la Presse</span>
+                    <span class="text-white">- Analyse des données et réalisation des rapports</span>
+                    <span class="text-white">- Animation des groupes de travail / présentation des résultats</span>
                 </div>
                 <hr class="line-formation col-10 col-md-3 text-white text-center m-auto">
             </div>
             <div class="col-12 item-group text-center">
                 <h4 class="text-white">Chef de projet</h4>
-                <p class="text-white">TOLUNA (2015 - 2016, Paris)</p>
-                <div class="row justify-content-center px-2 py-5">
-                    <ul class="col-12 col-md-7 list-group m-auto">
-                        <li class="text-white">Supervision des études panel multi-pays</li>
-                        <li class="text-white">Gestion des relations clients tout au long du projet</li>
-                    </ul>
+                <p class="text-white fst-italic">TOLUNA (2015 - 2016, Paris)</p>
+                <div class="pb-5 d-flex flex-column justify-content-center">
+                    <span class="text-white">- Supervision des études panel multi-pays</span>
+                    <span class="text-white">- Gestion des relations clients tout au long du projet</span>
                 </div>
                 <hr class="line-formation col-10 col-md-3 text-white text-center m-auto">
             </div>
             <div class="col-12 item-group text-center">
                 <h4 class="text-white">Chargée d’Etudes</h4>
-                <p class="text-white">Ipsos (2010 - 2015, Paris)</p>
-                <div class="row px-2 py-5">
-                    <ul class="col-12 col-md-7 list-group m-auto">
-                        <li class="text-white">Identification des besoins clients et participation aux briefings</li>
-                        <li class="text-white">Gestion des études de satisfaction internationales pour un grand compte
-                            automobile</li>
-                    </ul>
+                <p class="text-white fst-italic">Ipsos (2010 - 2015, Paris)</p>
+                <div class="pb-5 d-flex flex-column justify-content-center">
+                    <span class="text-white">- Identification des besoins clients et participation aux briefings</span>
+                    <span class="text-white">- Gestion des études de satisfaction internationales</span>
                 </div>
             </div>
         </section>
@@ -173,77 +189,28 @@
 
         <!-- début de la page "compétence" -->
         <section id="competences" class="row justify-content-center align-items-center p-5">
-            <h2 class="col-12 text-center">Compétences</h2>
+            <h2 class="text-center fw-bold pb-5">Compétences</h2>
             <!-- insertion des différents logos -->
-            <div class="col-12 col-md-6 py-5">
-                <div class="row justify-content-around">
-                    <div class="col-6 col-md-3 col-xl-2">
-                        <img class="img-fluid logo-html" src="./public/assets/img/logoHTML5.png" alt="logo de HTML5">
-                    </div>
-                    <div class="col-6 col-md-3 col-xl-2 "><img class="img-fluid logo-css"
-                            src="./public/assets/img/logoCSS3.png" alt="logo de CSS3"></div>
-                    <div class="col-6 col-md-3 col-xl-2 "><img class="img-fluid logo-bootstrap"
-                            src="./public/assets/img/logoBootstrap.png" alt="logo de bootstrap"></div>
-                    <div class="col-6 col-md-3 col-xl-2 ">
-                        <img class="img-fluid logo-sass" src="./public/assets/img/logoSASS.png" alt="logo de SASS">
-                    </div>
-                    <div class="col-6 col-md-3 col-xl-2 ">
-                        <img class="img-fluid logo-github" src="./public/assets/img/logoGithub.png"
-                            alt="logo de Github">
-                    </div>
-                    <div class="col-6 col-md-3 col-xl-2">
-                        <img class="img-fluid logo-figma" src="./public/assets/img/logoFigma.png" alt="logo de Figma">
-                    </div>
-                </div>
-            </div>
+            <div class="col-3 d-flex justify-content-center pb-5" title="Figma"><i class="fa-brands fa-figma"></i></div>
+            <div class="col-3 d-flex justify-content-center pb-5" title="CSS"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="col-3 d-flex justify-content-center pb-5" title="HTML5"><i class="fa-brands fa-html5"></i></div>
+            <div class="col-3 d-flex justify-content-center pb-5" title="JavaScript"><i class="fa-brands fa-js"></i></div>
+            <div class="col-3 d-flex justify-content-center pb-5" title="Vue"><i class="fa-brands fa-vuejs"></i></div>
+            <div class="col-3 d-flex justify-content-center pb-5" title="Bootstrap"><i class="fa-brands fa-bootstrap"></i></div>
+            <div class="col-3 d-flex justify-content-center pb-5" title="PHP"><i class="fa-brands fa-php"></i></div>
+            <div class="col-3 d-flex justify-content-center pb-5" title="Github"><i class="fa-brands fa-github"></i></div>
         </section>
         <!-- fin de la page "compétence" -->
 
-        <!-- début de la page "contact" -->
-        <section id="contact" class="row py-5">
-            <h2 class="col-12 text-center text-white pb-5">Contact</h2>
-            <form class="col-12">
-                <div class="container">
-                    <div class="row mx-3">
-                        <div class="col-12 col-md-6 mb-3">
-                            <label for="exampleInputEmail1" class="form-label text-white">Prénom *</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-
-                        </div>
-                        <div class="col-12 col-md-6 mb-3">
-                            <label for="exampleInputPassword1" class="form-label text-white">Nom *</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="col-12 col-md-6 mb-3">
-                            <label for="exampleInputPassword1" class="form-label text-white">Email *</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="col-12 col-md-6 mb-3">
-                            <label for="exampleInputPassword1" class="form-label text-white">Téléphone</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="col-12 mb-3">
-                            <label for="exampleInputPassword1" class="form-label text-white">Message *</label>
-                            <textarea type="password" class="form-control" id="exampleInputPassword1"></textarea>
-                        </div>
-                        <div class="col-12 my-5 text-center">
-                            <button type="submit" class="col-4 btn btn-contact text-white ">Envoyer</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </section>
-        <!-- fin de la page "contact" -->
-
         <!-- début footer -->
-        <footer class="text-center py-2">
-            <a href="https://www.linkedin.com/in/jing-ferment/" target="_blank"><img class="logo-linkedIn"
-                    src="./public/assets/img/logoLinkedIn.png" alt="logo LinkedIn"></a>
-            <a href="https://github.com/JingFERMENT" target="_blank"><img class="logo-Github"
-                    src="./public/assets/img/logoGithub.png" alt="logo logoGithub"></a>
-            <p class="footer-text m-0">Jing Ferment-Zhang © 2023</p>
-            <p class="footer-text m-0">Tous droits réservé</p>
+        <footer class="row text-center py-2 ">
+            <div class="d-flex justify-content-center">
+                <a href="https://www.linkedin.com/in/jing-ferment/" target="_blank" title="linkedin"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/JingFERMENT" target="_blank" title = "Github"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <small class="m-0 ">Jing Ferment-Zhang © 2024</small>
+            <small  class="m-0">Tous droits réservé</small>
     </div>
     </footer>
     <!-- fin footer" -->
