@@ -1,6 +1,4 @@
-### Hello 👋
-
-I am Jing, a junior developper in Amiens, France.
+### Hello,I'm Jing 👋
 
 - 🔭 I’m currently working on **my portfolio website (www.jing-zhang-ferment.fr)**.
 - 🌱 I’m currently learning **PHP**.
