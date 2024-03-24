@@ -1,4 +1,4 @@
-### Hello,I'm Jing 👋
+### Hello, I'm Jing 👋
 
 - 🔭 I’m currently working on **my portfolio website (www.jing-zhang-ferment.fr)**.
 - 🌱 I’m currently learning **PHP**.
