@@ -2,7 +2,6 @@
 
 - 🔭 I’m currently working on **my portfolio website (www.jing-zhang-ferment.fr)**.
 - 🌱 I’m currently learning **PHP**.
-- 👯 I’m looking for an internship or a full time job as a **web developer**.
 - ⚡ Fun fact: I speak **3 languages** fluently: Chinese, French and English.
 
 ### Tech Stack
