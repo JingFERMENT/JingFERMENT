@@ -20,7 +20,7 @@
 ![Visual_Studio_Code](https://img.shields.io/badge/-Visual_Studio_Code-007ACC?style=plastic&logo=visualstudiocode&logoColor=white)
 ![Laragon](https://img.shields.io/badge/-Laragon-0E83CD?style=plastic&logo=laragon&logoColor=white)
 ![Trello](https://img.shields.io/badge/-Trello-0052CC?style=plastic&logo=trello&logoColor=white)
-
+![Slim](https://img.shields.io/badge/-SlimPHP-74c7b8?style=plastic&logo=slim&logoColor=white)
 
 ### Contact
 - [@jingZhangFerment](https://www.linkedin.com/in/jing-ferment/) on LinkedIn
