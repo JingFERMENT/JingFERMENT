@@ -2,8 +2,8 @@
 
 ![](https://komarev.com/ghpvc/?username=JingFERMENT&color=green)
 
-- 🔭 I’m currently working on **my portfolio website (www.jing-zhang-ferment.fr)**.
-- 🌱 I’m currently learning **Slim PHP**.
+- 🔭 I’m currently working on **my projects**.
+- 🌱 I’m currently learning **Symfony PHP**.
 - ⚡ Fun fact: I speak **3 languages** fluently: Chinese, French and English.
 
 ### Tech Stack
