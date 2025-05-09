@@ -1,6 +1,6 @@
 ### Hello ! I'm Jing ! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
 
-![](https://komarev.com/ghpvc/?username=JingFERMENT&color=green)
+![](https://komarev.com/ghpvc/?username=JingFERMENT&color=green&abbreviated=true&style=flat-square)
 
 - 🔭 I’m currently working on **my projects**.
 - 🌱 I’m currently learning **Symfony PHP**.
