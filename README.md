@@ -14,9 +14,10 @@
 | ![React](https://img.shields.io/badge/-React-61DAFB?style=plastic&logo=react&logoColor=black) | ![Laragon](https://img.shields.io/badge/-Laragon-0E83CD?style=plastic&logo=laragon&logoColor=white) | |
 | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=plastic&logo=javascript&logoColor=black) | ![Trello](https://img.shields.io/badge/-Trello-0052CC?style=plastic&logo=trello&logoColor=white) | |
 | ![HTML_5](https://img.shields.io/badge/-HTML_5-E34F26?style=plastic&logo=html5&logoColor=white) | ![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=plastic&logo=figma&logoColor=white) | |
-| ![CSS_3](https://img.shields.io/badge/-CSS_3-1572B6?style=plastic&logo=css3&logoColor=white) | | |
+| ![CSS_3](https://img.shields.io/badge/-CSS_3-1572B6?style=plastic&logo=css3&logoColor=white) | ![PHPUnit](https://img.shields.io/badge/-PHPUnit-366488?style=plastic&logo=php&logoColor=white) | |
 | ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=plastic&logo=bootstrap&logoColor=white) | | |
 | ![Slim](https://img.shields.io/badge/-SlimPHP-74c7b8?style=plastic&logo=slim&logoColor=white) | | |
+
 
 ### 📂 Projects
 
