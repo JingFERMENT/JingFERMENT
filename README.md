@@ -1,7 +1,5 @@
 ### Hello ! I'm Jing ! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
 
-![](https://komarev.com/ghpvc/?username=JingFERMENT&color=green&abbreviated=true&style=for-the-badge)
-
 - 👩‍💻 Full-stack Web Developer.
 - 🌱 I’m currently learning **Symfony**, **Laravel** and **React(Javascript)**
 - 🚀 Passionate about building modern and user-friendly web applications
@@ -26,3 +24,5 @@
 
 ### 📫 Contact
 - 💼 [LinkedIn – @jingZhangFerment](https://www.linkedin.com/in/jing-ferment/)
+
+![](https://komarev.com/ghpvc/?username=JingFERMENT&color=green&abbreviated=true&style=for-the-badge)
