@@ -21,7 +21,7 @@
 
 ### 📂 Projects
 
-- **GreenGoodies** – Symfony e-commerce site with product catalog, orders, and API [https://github.com/JingFERMENT/Oxx-GreenGoodies](https://github.com/JingFERMENT/Oxx-GreenGoodies)
+- **GreenGoodies** – Symfony e-commerce site with product catalog, orders, and API [https://github.com/JingFERMENT/Oxx-GreenGoodies](https://github.com/JingFERMENT/OS-P13-GreenGoodies)
 
 
 ### 📫 Contact
