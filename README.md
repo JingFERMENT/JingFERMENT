@@ -21,7 +21,7 @@
 
 ### 📂 Projects
 
-- 🛒 **GreenGoodies** – Symfony e-commerce site with product catalog, orders, and API [🔗https://github.com/JingFERMENT/OS-P13-GreenGoodies](#)
+- 🛒 **GreenGoodies** – Symfony e-commerce site with product catalog, orders, and API [https://github.com/JingFERMENT/OS-P13-GreenGoodies](#)
 
 ### 📫 Contact
 - 💼 [LinkedIn – @jingZhangFerment](https://www.linkedin.com/in/jing-ferment/)
